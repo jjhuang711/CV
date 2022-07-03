@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact JJ</title>
+
+    <link rel ="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    
+    <h1>My Contact Detail</h1>
+    
+    <!--Table for contacts-->
+    <table>
+        <tr>
+            <td>Mobile</td>
+            <td>: 012-xxxx701</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>: Lot xxxx, xxxx x, Jalan xxxxx xxxxxxxx, 4xxxx.</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>: jijer_93@hotmail.com</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+    <h2>Contact-me Form</h2>
+
+    <!--Form for contact me -->
+    <!--Action attribute should used to direct it to destination-->
+    <!--Method="post" attribute to paste text area content and input names into the email straight away-->
+    <form action="mailto:jijer_93@hotmail.com?subject=Contact-JJ Form Submission" method="post" enctype="text/plain">
+        <strong><label for="Name">Name:</label></strong><br>
+        <!--the name attribute allow input to be printed in email-->
+        <input name="Name" type="text" id="Name" required><br><br>
+        <strong><label for="Email">Email address :</label></strong><br>
+        <input type="email" id="Email" required><br><br>
+        <strong><label for="Message">Message:</label></strong><br>
+        <textarea name="Message" id="Message" cols="60" rows="10" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

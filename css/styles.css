@@ -1,0 +1,21 @@
+body{
+    background-color:aliceblue;
+}
+
+h1{
+    color:darkslategray;
+}
+
+h2{
+    color:darkslategray;
+}
+
+/* Modify horizontal rule to a 1em (1 font size) width in dotted style in darkslategray color 
+hr{
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 1em dotted darkslategray;
+    width: 30%;
+}
+*/
